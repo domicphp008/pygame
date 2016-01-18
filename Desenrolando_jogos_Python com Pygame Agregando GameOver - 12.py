@@ -3,15 +3,15 @@ import time
 blanco = (255, 255, 255)
 negro = (0, 0, 0)
 rojo = (255, 0, 0)
-
+display_ancho = 800
+display_altura = 600
 pygame.init()
 superficie = pygame.display.set_mode((800,600))
 pygame.display.set_caption('deslizante')
 
 
 gameExit = False
-display_ancho = 800
-display_altura = 600
+
 lead_x = display_ancho/2
 lead_y = display_altura/2
 lead_x_cambio = 0
